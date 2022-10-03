@@ -5,7 +5,7 @@ sudo pacman -S xorg xorg-xinit xf86-video-amdgpu
 sudo pacman -S i3-gaps thunar htop neofetch git neovim light picom lxappearance alacritty polybar nitrogen flameshot rofi wget unzip links qutebrowser
 
 #cd dotfiles/
-cp -rv i3/ alacritty/ polybar/ .config/
+cp -rv i3/ alacritty/ polybar/ ~/.config/
 chmod +x ~/.config/polybar/polybar-launch/sh
 
 # add xinitrc
