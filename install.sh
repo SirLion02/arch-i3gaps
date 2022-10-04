@@ -6,7 +6,8 @@ sudo pacman -S i3-gaps thunar htop neofetch git neovim light picom lxappearance 
 
 #cd dotfiles/
 cp -rv i3/ alacritty/ polybar/ ~/.config/
-chmod +x ~/.config/polybar/polybar-launch/sh
+chmod +x ~/.config/polybar/polybar-launch.sh
+chmod +x ~/.config/i3/volume-max-100.sh
 
 # add xinitrc
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
