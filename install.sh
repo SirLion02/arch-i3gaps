@@ -1,5 +1,5 @@
 # install additional package
-sudo pacman -S i3-gaps pcmanfm bashtop neovim picom polkit network-manager-applet lxappearance alacritty polybar nitrogen flameshot rofi wget unzip qutebrowser
+sudo pacman -S i3-gaps pcmanfm bashtop neovim picom polkit network-manager-applet lxappearance alacritty polybar nitrogen flameshot rofi wget unzip qutebrowser lightdm lightdm-slick-greeter
 
 #cd dotfiles/
 cp -rv i3/ alacritty/ polybar/ ~/.config/
@@ -24,3 +24,7 @@ sudo mv ubuntu-font-family-0.83/
 
 # wallpaper
 sudo cp -rv low-poly* mountain* wallpaper.jpeg /usr/share/backgrounds/
+
+# running services
+sudo systemctl enable NetworkManager
+sudo systemctl enable lightdm
