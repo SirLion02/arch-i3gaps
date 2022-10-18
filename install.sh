@@ -25,6 +25,9 @@ sudo mv ubuntu-font-family-0.83/
 # wallpaper
 sudo cp -rv low-poly* mountain* wallpaper.jpeg /usr/share/backgrounds/
 
+# copy slick-greeter.conf
+sudo cp -v slick-greeter.conf /etc/lightdm/
+
 # running services
 sudo systemctl enable NetworkManager
 sudo systemctl enable lightdm
