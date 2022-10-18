@@ -1,5 +1,5 @@
 # install additional package
-sudo pacman -S i3-gaps pcmanfm bashtop neovim picom polkit network-manager-applet lxappearance alacritty polybar nitrogen flameshot rofi wget unzip qutebrowser lightdm lightdm-slick-greeter
+sudo pacman -S i3-gaps htop neofetch pcmanfm bashtop neovim picom polkit network-manager-applet lxappearance alacritty polybar nitrogen flameshot rofi wget unzip qutebrowser lightdm lightdm-slick-greeter
 
 #cd dotfiles/
 cp -rv i3/ alacritty/ polybar/ ~/.config/
@@ -20,9 +20,10 @@ sudo mv Nerd\ Fonts /usr/share/fonts
 #font for alacritty
 unzip ubuntu-font-family-0.83.zip
 
-sudo mv ubuntu-font-family-0.83/
+sudo mv ubuntu-font-family-0.83/ /usr/share/fonts/
 
 # wallpaper
+sudo mkdir /usr/share/backgrounds/
 sudo cp -rv low-poly* mountain* wallpaper.jpeg /usr/share/backgrounds/
 
 # copy slick-greeter.conf
