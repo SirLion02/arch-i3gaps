@@ -23,4 +23,4 @@ unzip ubuntu-font-family-0.83.zip
 sudo mv ubuntu-font-family-0.83/
 
 # wallpaper
-sudo cp -rv low-poly* wallpaper.jpeg /usr/share/backgrounds/
+sudo cp -rv low-poly* mountain* wallpaper.jpeg /usr/share/backgrounds/
